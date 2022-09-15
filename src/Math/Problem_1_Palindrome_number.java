@@ -9,7 +9,7 @@ the given number
 Approach : checking the first and last digit using the mod and divide operator
 
 
-Time Complexity = O(n)
+Time Complexity = O(n/2)
 
 Space COmplexity =  O(1)
 
