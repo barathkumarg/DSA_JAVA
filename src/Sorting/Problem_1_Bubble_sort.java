@@ -2,6 +2,18 @@ package Sorting;
 
 import java.util.Arrays;
 
+/*
+
+TIme complexity = 0(n^2)
+Space complexity = 0(1)
+
+-> Inplace and stable sorting algorithm
+
+*
+* */
+
+
+
 public class Problem_1_Bubble_sort {
 
     //swap function
