@@ -10,7 +10,7 @@ Auxiliary Space: O(1)
 */
 import java.util.Arrays;
 
-public class Problem_9_count_sort {
+public class Problem_9_cyclic_sort {
 
 
 
