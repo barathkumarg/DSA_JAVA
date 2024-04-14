@@ -36,6 +36,10 @@ public class Problem_2_Open_addressing_linear {
             int hashValue = element % hash_size;
             int count = 0;
             while (hashTable[hashValue] != -1 && count < hash_size) {
+                //handling the duplicate cases, break the loop if already the element present in it
+                if(hashTable[hashValue] == element) break;
+
+                //increment the hashValue
                 hashValue = (hashValue + 1) % hash_size;
                 count++;
             }
