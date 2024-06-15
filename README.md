@@ -45,3 +45,4 @@ All the dsa questions with answers in java in detailed manner
 - [Longest Unique subsequence](https://www.geeksforgeeks.org/batch/dsa-4/track/DSASP-Strings/article/Nzk4MA%3D%3D)
 
 
+## [Singly Linked list](https://www.geeksforgeeks.org/singly-linked-list-tutorial/)
