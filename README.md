@@ -42,5 +42,6 @@ All the dsa questions with answers in java in detailed manner
 - [Pattern search - Rabin Karp](https://www.geeksforgeeks.org/batch/dsa-4/track/DSASP-Strings/article/MjMxMg%3D%3D)
 - [Pattern search - KMP](https://www.geeksforgeeks.org/batch/dsa-4/track/DSASP-Strings/article/MjMxMw%3D%3D)
 - Lexicographic order
+- [Longest Unique subsequence](https://www.geeksforgeeks.org/batch/dsa-4/track/DSASP-Strings/article/Nzk4MA%3D%3D)
 
 
