@@ -1,6 +1,17 @@
 package LinkedList;
+/**
+ * Reverse a Linked List
+ Description - Given a pointer to the head node of a linked list, the task is to reverse the linked list. We need to reverse the list by changing links between nodes.
 
-public class ReverseLinkedList {
+
+ Input: Head of following linked list
+ 1->2->3->4->NULL
+ Output: Linked list should be changed to,
+ 4->3->2->1->NUL
+ **/
+
+
+public class Problem_1_ReverseLinkedList {
     public static void main(String[] args) {
         SLinkedList linkedlist = new SLinkedList();
 
@@ -13,9 +24,9 @@ public class ReverseLinkedList {
         linkedlist.display();
 
         //Reversing the linked list
-        SLinkedList.Node prev = null;
-        SLinkedList.Node current = SLinkedList.head;
-        SLinkedList.Node next;
+        Node prev = null;
+       Node current = linkedlist.head;
+        Node next;
 
         while(current!=null){
             next = current.next;
@@ -24,7 +35,7 @@ public class ReverseLinkedList {
             current = next;
 
         }
-        SLinkedList.head = current;
-        SLinkedList.display();
+        linkedlist.head = current;
+        linkedlist.display();
     }
 }

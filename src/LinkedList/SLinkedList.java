@@ -1,24 +1,23 @@
 package LinkedList;
 
-public class SLinkedList {
-    static Node head;
+//Node class
+class Node{
+    int data;
+    Node next;
 
-    //Node class
-    static class Node{
-        int data;
-        Node next;
-
-        //constructor
-        public Node(int data){
-            this.data = data;
-            this.next = null;
-        }
-
+    //constructor
+    public Node(int data){
+        this.data = data;
+        this.next = null;
     }
 
+}
+
+public class SLinkedList {
+    Node head;
 
     //print the linked list elements
-    public static void display() {
+    public void display() {
         Node temp = head;
         while (temp != null) {
             System.out.print(temp.data + " -> ");
@@ -30,7 +29,7 @@ public class SLinkedList {
 
     //*****************   Insertion operation  *************************************
     //insert at last
-    public static void insertLast(int data) {
+    public void insertLast(int data) {
         Node newNode = new Node(data);
         newNode.next = null;
 
@@ -46,7 +45,7 @@ public class SLinkedList {
     }
 
     //insert at first
-    public static void insertFirst(int data) {
+    public void insertFirst(int data) {
         Node newNode = new Node(data);
         newNode.next = null;
 
@@ -62,7 +61,7 @@ public class SLinkedList {
     }
 
     //insert at the position
-    public static void insertPosition(int position, int data) {
+    public void insertPosition(int position, int data) {
         Node temp = head;
         Node newNode = new Node(data);
         newNode.next = null;
