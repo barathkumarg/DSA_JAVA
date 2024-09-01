@@ -47,6 +47,9 @@ All the dsa questions with answers in java in detailed manner
 
 ## [Linked list](https://www.geeksforgeeks.org/singly-linked-list-tutorial/)
 ### Patterns
-- [Loop in a Linked list](https://www.geeksforgeeks.org/detect-loop-in-a-linked-list/)
+- [Loop in a Linked list - slow/fast pointer approach](https://www.geeksforgeeks.org/detect-loop-in-a-linked-list/)
 - [Intersection in Linked list](https://www.geeksforgeeks.org/write-a-function-to-get-the-intersection-point-of-two-linked-lists/)
 - [Reversing linked list](https://www.geeksforgeeks.org/reverse-a-linked-list/)
+- [Palindrome check in linked list](https://www.geeksforgeeks.org/batch/dsa-4/track/DSASP-LinkedList/article/NzMxMg%3D%3D)
+
+## [Stack]
