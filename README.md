@@ -53,3 +53,10 @@ All the dsa questions with answers in java in detailed manner
 - [Palindrome check in linked list](https://www.geeksforgeeks.org/batch/dsa-4/track/DSASP-LinkedList/article/NzMxMg%3D%3D)
 
 ## [Stack]
+### Patterns
+- [Balancing Paranthesis](https://www.geeksforgeeks.org/check-for-balanced-parentheses-in-an-expression/)
+- [Stock span problem](https://www.geeksforgeeks.org/batch/dsa-4/track/DSASP-Stack/article/NzM3Mg%3D%3D)
+- [Previous Greater Element](https://www.geeksforgeeks.org/batch/dsa-4/track/DSASP-Stack/article/NjkyMQ%3D%3D)
+- [Next Greatest Element](https://www.geeksforgeeks.org/batch/dsa-4/track/DSASP-Stack/article/NjkyMg%3D%3D)
+- [Infix to postfix](https://www.geeksforgeeks.org/convert-infix-expression-to-postfix-expression/)
+- [Postfix calculation](https://www.geeksforgeeks.org/batch/dsa-4/track/DSASP-Stack/article/NzM3OA%3D%3D)
