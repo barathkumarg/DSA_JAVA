@@ -64,3 +64,8 @@ All the dsa questions with answers in java in detailed manner
 ## [Queue](https://www.geeksforgeeks.org/queue-data-structure/)
 
 ## [Tree](https://www.geeksforgeeks.org/batch/dsa-4/track/DSASP-Tree/article/MjM0NQ%3D%3D)
+### Patterns
+- [Tree Traversal](https://www.geeksforgeeks.org/tree-traversals-inorder-preorder-and-postorder/)
+- [Height of the Tree](https://www.geeksforgeeks.org/find-the-maximum-depth-or-height-of-a-tree/)
+- [Size of the Tree](https://www.geeksforgeeks.org/write-a-c-program-to-calculate-size-of-a-tree/)
+- [Maximum element in Tree](https://www.geeksforgeeks.org/find-maximum-or-minimum-in-binary-tree/)
