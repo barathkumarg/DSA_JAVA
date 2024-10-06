@@ -1,6 +1,6 @@
 package Tree;
 
-public class Problem_1_Binary_Tree {
+public class Problem_Binary_Tree {
 
     public static void main(String[] args) {
         Node root = new Node(1);
@@ -48,6 +48,20 @@ public class Problem_1_Binary_Tree {
 
         //print the maximum element in the tree
         System.out.println("\nMaximum element in the tree is: "+ BinaryTree.getMaximumElement(root));
+
+        //find the tree is balanced or not
+        System.out.println("\nBalanced tree check:");
+        if(BinaryTree.findBalancedtree(root) > 0){
+            System.out.println("Tree is balanced");
+        } else {
+            System.out.println("Tree is not balanced");
+        }
+
+        //find the width at n level
+        int level = 3;
+        System.out.println("\nThe width of the tree at level "+level+" is: "+BinaryTree.getWidthOfLevel(root,level));
+
+
 
 
 

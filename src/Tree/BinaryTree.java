@@ -178,5 +178,31 @@ public class BinaryTree {
         return result;
     }
 
+    //find the given was the balanced tree
+    public static int findBalancedtree(Node root){
+        if (root == null) return 0;
+        int leftheight = findBalancedtree(root.left);
+        if (leftheight == -1) return -1;  //fail case check
+
+        int rightheight = findBalancedtree(root.right);
+        if(rightheight == -1) return -1;  //fail case check
+
+        if(Math.abs(leftheight - rightheight) >1) return -1;  //fail case check
+
+        return Math.max(leftheight,rightheight) + 1;
+    }
+
+    //Find width of the tree for the given level
+    public static int getWidthOfLevel(Node root, int level){
+        if (root == null) return 0;
+
+        if(level==1) return 1;
+
+        else if(level > 1) {
+            return getWidthOfLevel(root.left, level -1) + getWidthOfLevel(root.right, level -1);
+        }
+        return 0;
+    }
+
 
 }
