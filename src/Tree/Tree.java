@@ -15,7 +15,7 @@ class Node {
 }
 
 
-public class BinaryTree {
+public class Tree {
 
     public static void printTree(Node root) {
         if (root == null) return;

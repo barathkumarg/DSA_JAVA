@@ -29,7 +29,7 @@ public class Problem_1_lowest_common_ancestor {
         root.right.right = new Node(7);
         root.left.left.left = new Node(8);
 
-        BinaryTree.printTree(root);
+        Tree.printTree(root);
         Node node = findLowestCommonAncestor(root,4,5);
         System.out.println("Least Common Ancestor: "+ node.value);
 

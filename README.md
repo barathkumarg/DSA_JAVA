@@ -69,3 +69,6 @@ All the dsa questions with answers in java in detailed manner
 - [Height of the Tree](https://www.geeksforgeeks.org/find-the-maximum-depth-or-height-of-a-tree/)
 - [Size of the Tree](https://www.geeksforgeeks.org/write-a-c-program-to-calculate-size-of-a-tree/)
 - [Maximum element in Tree](https://www.geeksforgeeks.org/find-maximum-or-minimum-in-binary-tree/)
+- [Diameter of the tree](https://www.geeksforgeeks.org/diameter-of-a-binary-tree/)
+- [Finding LCA of the tree](https://www.geeksforgeeks.org/lowest-common-ancestor-binary-tree-set-1/)
+- [Burn the Binary tree](https://www.geeksforgeeks.org/burn-the-binary-tree-starting-from-the-target-node/)
