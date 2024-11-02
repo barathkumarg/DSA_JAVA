@@ -126,7 +126,7 @@ public class BinaryTree {
 
     public static Node deleteNode(Node node, int value){
     /**
-
+      Delete the node, replace the rightmost element method
      **/
         if(node == null) return node;
         else if(node.value > value) node.left = deleteNode(node.left,value);
@@ -137,6 +137,7 @@ public class BinaryTree {
 
             node.value = minValue(node.right);
 
+            //Delete the replaced node
             node.right = deleteNode(node.right, node.value);
         }
         return node;
