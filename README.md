@@ -72,3 +72,13 @@ All the dsa questions with answers in java in detailed manner
 - [Diameter of the tree](https://www.geeksforgeeks.org/diameter-of-a-binary-tree/)
 - [Finding LCA of the tree](https://www.geeksforgeeks.org/lowest-common-ancestor-binary-tree-set-1/)
 - [Burn the Binary tree](https://www.geeksforgeeks.org/burn-the-binary-tree-starting-from-the-target-node/)
+
+## [Binary Tree]
+### Patterns
+- [Binary tree operations](https://www.geeksforgeeks.org/binary-tree-data-structure/) #patterns included
+- [AVL Tree](https://www.geeksforgeeks.org/introduction-to-avl-tree/)
+- [Red black Tree](https://www.geeksforgeeks.org/introduction-to-red-black-tree/)
+- [Heap Tree](https://www.geeksforgeeks.org/heap-data-structure/)
+
+## [Graph]
+### Patterns
