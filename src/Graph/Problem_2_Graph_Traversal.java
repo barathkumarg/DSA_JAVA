@@ -4,9 +4,7 @@ package Graph;
  Graph Traversal with the Adjacency list implementation
  Time and Space complexity: 0(V + E)
 
-
  * */
-
 
 import java.util.ArrayList;
 import java.util.Iterator;

@@ -16,7 +16,7 @@ import java.util.ArrayList;
 
 public class Problem_1_Graph_adjanency_list {
 
-    public static void addVertex(ArrayList<ArrayList<Integer>> adj, int u_index, int v_index){
+    public static void addEdge(ArrayList<ArrayList<Integer>> adj, int u_index, int v_index){
         /**
          Method to add the node connection points in the vertex Matrix
          * **/
@@ -46,13 +46,13 @@ public class Problem_1_Graph_adjanency_list {
             adj.add(new ArrayList<Integer>());
         }
 
-        addVertex(adj,0,1);
-        addVertex(adj,0,4);
-        addVertex(adj,1,2);
-        addVertex(adj,1,3);
-        addVertex(adj,1,4);
-        addVertex(adj,2,3);
-        addVertex(adj,3,4);
+        addEdge(adj,0,1);
+        addEdge(adj,0,4);
+        addEdge(adj,1,2);
+        addEdge(adj,1,3);
+        addEdge(adj,1,4);
+        addEdge(adj,2,3);
+        addEdge(adj,3,4);
 
     }
 
