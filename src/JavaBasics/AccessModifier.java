@@ -2,7 +2,7 @@ package JavaBasics;
 
 /**
  * ============================================================
- *            Java Access Modifiers – Complete Demo
+ *            Java Access Modifiers
  * ============================================================
  *
  * This program demonstrates:
